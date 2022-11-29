@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- head -->
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мероприятия</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body class="main__body">
+	<div class="wrapper">
+		<!-- Header -->
+		<header class="header">
+	<div class="header__container -container">
+		<a href="./index.html" class="header__logo">
+			<img src="img/general/logo.svg" alt="">
+		</a>
+		<div class="header__menu">
+			<nav class="header__navigation">
+				<ul class="header__list">
+					<li>
+						<a href="./about_us.html" class="header__link -menu-link">
+							О нас
+						</a>
+					</li>
+					<li>
+						<a href="#" class="header__link -menu-link header__link_arrow">
+							Обучение
+							<span class="icon-play"></span>
+						</a>
+						<ul class="header__sublist -ul-syle">
+							<li>
+								<a href="./article.html" class="header__sublink -menu-link -menu-link">Статьи</a>
+							</li>
+							<li>
+								<a href="./events.html" class="header__sublink -menu-link -menu-link">Прямой эфир</a>
+							</li>
+							<li>
+								<a href="./feedback.html" class="header__sublink -menu-link -menu-link">Отзывы</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="./case.html" class="header__link -menu-link">
+							Наши кейсы
+						</a>
+					</li>
+					<li>
+						<a href="./video.html" class="header__link -menu-link">
+							Видео
+						</a>
+					</li>
+					<li>
+						<a href="./faq.html" class="header__link -menu-link">
+							FAQ
+						</a>
+					</li>
+					<li>
+						<a href="./checklist.html" class="header__link -menu-link header__link_arrow">
+							Чек-листы
+						</a>
+					</li>
+					<li>
+						<a href="./tools.html" class="header__link -menu-link">
+							Инструменты
+						</a>
+					</li>
+					<li>
+						<a href="./contact.html" class="header__link -menu-link">
+							Контакты
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="header__tg tg icon-tg"></a>
+			</nav>
+			
+		</div>
+		<button class="header__menu-m menu-m">
+			<span class="menu-m__span menu-m__span_1"></span>
+			<span class="menu-m__span menu-m__span_2"></span>
+			<span class="menu-m__span menu-m__span_3"></span>
+		</button>
+	</div>
+</header>
+
+		<!-- Main Page -->
+		<main class="events -padding-main">
+			<div class="events__title title">
+				<div class="title__container -container">
+					<h2 class="title__name -title">
+						Самое полезное: вебинары, прямые эфиры и оффлайн мероприятия.
+					</h2>
+				</div>
+			</div>
+			<div class="events__body">
+				<div class="events__choice choice -switch">
+					<div class="choice__container -container">
+						<div class="choice__filter -switch-filter filter">
+							<div class="filter__block">
+								<ul class="filter__ul">
+									<li class="filter__item -switch-choice -active" data-filter="all">
+										<span>все</span>
+									</li>
+									<li class="filter__item -switch-choice" data-filter="online">
+										<span>Прямой эфир</span>
+									</li>
+									<li class="filter__item -switch-choice" data-filter="offline">
+										<span>оффлайн</span>
+									</li>
+									<li class="filter__item -switch-choice" data-filter="mastermind">
+										<span>мастермайнды</span>
+									</li>
+									<li class="filter__item -switch-choice" data-filter="webinar">
+										<span>вебинар</span>
+									</li>
+									<li class="filter__item -switch-choice" data-filter="conference">
+										<span>конференция</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="choice__body">
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="online">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format format_on -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Онлайн</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">14 июня</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">15:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм или адрес (если
+													оффлайн)</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="online">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format format_on -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Онлайн</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">19 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">15:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="conference">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_1.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Оффлайн</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">19 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">15:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="mastermind">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_1.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Конференция</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="mastermind">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>мастермайнды</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="webinar">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Вебинар</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="offline">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>оффлайн</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="offline">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>Оффлайн</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="conference">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>конференция</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="conference">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>конференция</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="choice__card events-card -switch-card" data-visible="visible" data-card="conference">
+								<div class="events-card__flex">
+									<div class="events-card__head">
+										<div class="events-card__pic">
+											<div class="events-card__ibg -ibg">
+												<img src="img/events/foto_2_man.jpg" alt="">
+											</div>
+											<div class="events-card__title">
+												<div class="events-card__decoration decoration">
+													<div class="decoration__inner decoration__inner_top"></div>
+													<div class="decoration__inner decoration__inner_bottom"></div>
+												</div>
+												<div class="events-card__name -label -label_col-light">«Какую стратегию выбрать для продвижения
+													на маркетплейсах»</div>
+											</div>
+										</div>
+									</div>
+									<div class="events-card__content">
+										<div class="events-card__item">
+											<div class="events-card__format format -text-btn -text-btn_fz14 -text-btn_wh">
+												<span>конференция</span>
+											</div>
+											<div class="events-card__period period-events">
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">27 июля</div>
+												<div class="period-events__inner -text-btn -text-btn_fz14 -text-btn_wh">17:00 мск</div>
+											</div>
+											<div class="events-card__place">
+												<div class="events-card__title-place -label -label_col-blue">Место проведения:</div>
+												<div class="events-card__map-place -label -label_col-light">Прямой эфир в телеграм</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="choice__pages page-number">
+							<div class="page-number__block -switch-pages">
+								<div class="page-number__number -switch-number -active">1</div>
+								<div class="page-number__number -switch-number">2</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="events__mailing mailing">
+				<div class="mailing__container -container">
+					<div class="mailing__block">
+						<div class="mailing__text">
+							<div class="mailing__subtitle -subtitle">
+								Подпишись на рассылку о появлении новых чек-листов
+							</div>
+						</div>
+						<div class="mailing__body">
+							<form novalidate action="#" class="mailing__form form-question">
+								<div class="form-question__line -input-line">
+									<input placeholder="Введите E-mail" type="email" id="form-question-email"
+										class="form-question__input">
+									<label for="form-question-email" class="form-string__error -error">Введите email</label>
+								</div>
+								<div class="form-question__btn">
+									<button type="submit"  class="form-question__button btn -text-btn">Задать
+										вопрос</button>
+								</div>
+							</form>
+							<div class="mailing__consent consent">
+								Отправляя форму, вы соглашаетесь на обработку персональных данных, защищенных <a href="#">политикой
+									конфиденциальности</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="events__community community">
+				<div class="community__container -container">
+					<div class="community__block">
+						<div class="community__title -subtitle -subtitle_color-dark">
+							Комьюнити <br> по маркетплейсам
+						</div>
+						<div class="community__content">
+							<div class="community__text -text -text_color-dark">
+								На канале мы делимся важными инсайтами, полезными советами, уникальными чек-листами, программами и
+								плагинами. Всем тем, что поможет сделать вам хороший результат и обойти конкурентов на
+								маркетплейсах!
+							</div>
+							<div class="community__subscribe subscribe">
+								<span class="subscribe__icon icon-tg"></span>
+								<span class="subscribe__text-max -text-btn">Подписаться в группу Telegram</span>
+								<span class="subscribe__text-min -text-btn">Все кейсы</span>
+							</div>
+						</div>
+						<div class="community__decoration">
+							<div class="community__cir">
+								<div class="community__circle decor-circles">
+									<div class="decor-circles__circle decor-circles__circle_pink">
+										<div class="decor-circles__semicircle decor-circles__semicircle_pink"></div>
+									</div>
+									<div class="decor-circles__circle decor-circles__circle_blue">
+										<div class="decor-circles__semicircle decor-circles__semicircle_blue"></div>
+									</div>
+									<div class="decor-circles__circle decor-circles__circle_yellow">
+										<div class="decor-circles__semicircle decor-circles__semicircle_yellow"></div>
+									</div>
+									<div class="decor-circles__circle decor-circles__circle_bread">
+										<div class="decor-circles__semicircle decor-circles__semicircle_bread"></div>
+									</div>
+								</div>
+							</div>
+							<div class="community__foto">
+								<img src="img/decor-circles/phone.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<!-- Footer -->
+		<footer class="footer">
+	<div class="footer__container -container">
+		<div class="footer__body">
+			<div class="footer__logo">
+				<a href="#"><img src="img/general/logo.svg" alt=""></a>
+			</div>
+			<div class="footer__block">
+				<ul class="footer__ul">
+					<li><a href="./about_us.html" class="footer__link -menu-link">О нас</a></li>
+					<li><a href="./video.html" class="footer__link -menu-link">Видео</a></li>
+					<li><a href="./case.html" class="footer__link -menu-link">Наши кейсы</a></li>
+				</ul>
+				<div class="footer__learn -menu-link">
+					<span class="">Обучение</span>
+					<div class="footer__grid">
+						<ul class="footer__ul">
+							<li><a href="./events.html" class="footer__link -menu-link">Мастермайнды</a></li>
+							<li><a href="./article.html" class="footer__link -menu-link">Статьи</a></li>
+							<li><a href="./article.html" class="footer__link -menu-link">Эфиры</a></li>
+						</ul>
+						<ul class="footer__ul">
+							<li><a href="./article.html" class="footer__link -menu-link">Выступления</a></li>
+							<li><a href="./feedback.html" class="footer__link -menu-link">Онлайн запуски</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__FAQ">
+					<div class="footer__grid">
+						<ul class="footer__ul">
+							<li><a href="./checklist.html" class="footer__link -menu-link">Чек-листы</a></li>
+							<li><a href="./tools.html" class="footer__link -menu-link">Инструменты</a></li>
+						</ul>
+						<ul class="footer__ul">
+							<li><a href="./faq.html" class="footer__link -menu-link">FAQ</a></li>
+							<li><a href="./contact.html" class="footer__link -menu-link">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__tg">
+					<a href="" class="tg icon-tg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__footer">
+			<div class="footer__rights">
+				<a href="" class="-menu-link">© 2022. Все права защищены.</a>
+			</div>
+			<div class="footer__politics">
+				<a href="" class="-menu-link">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</div>
+</footer>
+		
+	</div>
+</body>
+<script src="./js/scripts.js"></script>
+
+</html>

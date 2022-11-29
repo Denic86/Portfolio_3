@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- head -->
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вопросы</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body class="main__body">
+	<div class="wrapper">
+		<!-- Header -->
+		<header class="header">
+	<div class="header__container -container">
+		<a href="./index.html" class="header__logo">
+			<img src="img/general/logo.svg" alt="">
+		</a>
+		<div class="header__menu">
+			<nav class="header__navigation">
+				<ul class="header__list">
+					<li>
+						<a href="./about_us.html" class="header__link -menu-link">
+							О нас
+						</a>
+					</li>
+					<li>
+						<a href="#" class="header__link -menu-link header__link_arrow">
+							Обучение
+							<span class="icon-play"></span>
+						</a>
+						<ul class="header__sublist -ul-syle">
+							<li>
+								<a href="./article.html" class="header__sublink -menu-link -menu-link">Статьи</a>
+							</li>
+							<li>
+								<a href="./events.html" class="header__sublink -menu-link -menu-link">Прямой эфир</a>
+							</li>
+							<li>
+								<a href="./feedback.html" class="header__sublink -menu-link -menu-link">Отзывы</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="./case.html" class="header__link -menu-link">
+							Наши кейсы
+						</a>
+					</li>
+					<li>
+						<a href="./video.html" class="header__link -menu-link">
+							Видео
+						</a>
+					</li>
+					<li>
+						<a href="./faq.html" class="header__link -menu-link">
+							FAQ
+						</a>
+					</li>
+					<li>
+						<a href="./checklist.html" class="header__link -menu-link header__link_arrow">
+							Чек-листы
+						</a>
+					</li>
+					<li>
+						<a href="./tools.html" class="header__link -menu-link">
+							Инструменты
+						</a>
+					</li>
+					<li>
+						<a href="./contact.html" class="header__link -menu-link">
+							Контакты
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="header__tg tg icon-tg"></a>
+			</nav>
+			
+		</div>
+		<button class="header__menu-m menu-m">
+			<span class="menu-m__span menu-m__span_1"></span>
+			<span class="menu-m__span menu-m__span_2"></span>
+			<span class="menu-m__span menu-m__span_3"></span>
+		</button>
+	</div>
+</header>
+
+		<!-- Main Page -->
+		<main class="faq -padding-main">
+			<div class="faq__title title">
+				<div class="title__container -container">
+					<h2 class="title__name -title">
+						FAQ
+					</h2>
+				</div>
+			</div>
+			<div class="faq__body ">
+				<div class="faq__choice choice -toggle">
+					<div class="choice__container -container">
+						<div class="choice__filter -toggle-filter filter">
+							<div class="filter__block">
+								<ul class="filter__ul">
+									<li class="filter__item -toggle-choice -active" data-filter="all">
+										<span>все</span>
+									</li>
+									<li class="filter__item -toggle-choice" data-filter="courses">
+										<span>Про курсы</span>
+									</li>
+									<li class="filter__item -toggle-choice" data-filter="tools">
+										<span>про инструменты</span>
+									</li>
+									<li class="filter__item -toggle-choice" data-filter="meetings">
+										<span>про мероприятия</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="choice__body faq-body">
+							<div class="faq-body__block -circul">
+								<div class="faq-body__title">Все вопросы</div>
+								<div class="faq-body__questions">
+									<div class="faq-body__question -toggle-card" data-card="courses">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Что мне даст прохождение вашего курса?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text faq-body__text_visible -label">
+											Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+											сохранять своё состояние до тех пор, пока вы не очистите куки сайта.
+										</div>
+									</div>
+									<div class="faq-body__question -toggle-card" data-card="tools">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Какие инструменты используете?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text -label">Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+										сохранять своё состояние до тех пор, пока вы не очистите куки сайта.</div>
+									</div>
+									<div class="faq-body__question -toggle-card" data-card="meetings">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Какие мероприятия проводите?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text -label">Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+										сохранять своё состояние до тех пор, пока вы не очистите куки сайта.</div>
+									</div>
+									<div class="faq-body__question -toggle-card" data-card="tools">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Какими инструментами пользуетесь?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text -label">Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+										сохранять своё состояние до тех пор, пока вы не очистите куки сайта.</div>
+									</div>
+									<div class="faq-body__question -toggle-card" data-card="courses">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Каким я буду после курса?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text -label">Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+										сохранять своё состояние до тех пор, пока вы не очистите куки сайта.</div>
+									</div>
+									<div class="faq-body__question -toggle-card" data-card="meetings">
+										<div class="faq-body__name -subtitle -subtitle_color-dark">
+											<div>Как часто проходят мероприятия?</div>
+											<span></span>
+										</div>
+										<div class="faq-body__text -label">Отмеченные пункты сохраняются в куках вашего браузера. Можете спокойно открывать и закрывать страницу. Все галочки будут
+										сохранять своё состояние до тех пор, пока вы не очистите куки сайта.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+	<div class="footer__container -container">
+		<div class="footer__body">
+			<div class="footer__logo">
+				<a href="#"><img src="img/general/logo.svg" alt=""></a>
+			</div>
+			<div class="footer__block">
+				<ul class="footer__ul">
+					<li><a href="./about_us.html" class="footer__link -menu-link">О нас</a></li>
+					<li><a href="./video.html" class="footer__link -menu-link">Видео</a></li>
+					<li><a href="./case.html" class="footer__link -menu-link">Наши кейсы</a></li>
+				</ul>
+				<div class="footer__learn -menu-link">
+					<span class="">Обучение</span>
+					<div class="footer__grid">
+						<ul class="footer__ul">
+							<li><a href="./events.html" class="footer__link -menu-link">Мастермайнды</a></li>
+							<li><a href="./article.html" class="footer__link -menu-link">Статьи</a></li>
+							<li><a href="./article.html" class="footer__link -menu-link">Эфиры</a></li>
+						</ul>
+						<ul class="footer__ul">
+							<li><a href="./article.html" class="footer__link -menu-link">Выступления</a></li>
+							<li><a href="./feedback.html" class="footer__link -menu-link">Онлайн запуски</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__FAQ">
+					<div class="footer__grid">
+						<ul class="footer__ul">
+							<li><a href="./checklist.html" class="footer__link -menu-link">Чек-листы</a></li>
+							<li><a href="./tools.html" class="footer__link -menu-link">Инструменты</a></li>
+						</ul>
+						<ul class="footer__ul">
+							<li><a href="./faq.html" class="footer__link -menu-link">FAQ</a></li>
+							<li><a href="./contact.html" class="footer__link -menu-link">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__tg">
+					<a href="" class="tg icon-tg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__footer">
+			<div class="footer__rights">
+				<a href="" class="-menu-link">© 2022. Все права защищены.</a>
+			</div>
+			<div class="footer__politics">
+				<a href="" class="-menu-link">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+<script src="./js/scripts.js"></script>
+
+</html>
